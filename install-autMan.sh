@@ -82,7 +82,7 @@ if [ ! -d $s ];then
     mkdir $s;
 fi;
 cd $s;
-wget https://github.com/hdbjlizhe/fanli/releases/download/$latest_version/autMan_$a.tar.gz;
+wget https://mirror.ghproxy.com/https://github.com/hdbjlizhe/fanli/releases/download/$latest_version/autMan_$a.tar.gz;
 tar -zxvf autMan_$a.tar.gz;
 rm -rf autMan_$a.tar.gz;
 chmod 777 $s;
